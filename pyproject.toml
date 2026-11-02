@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "edeblo-trainplat_jd065"
+name = "edeblo-operator_fusion_payoff_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出大模型训练平台工程师·算子融合的收益边界上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://edeblo.github.io"
-Repository = "https://github.com/edeblo/trainplat_jd065"
-Issues = "https://github.com/edeblo/trainplat_jd065/issues"
+Repository = "https://github.com/edeblo/operator_fusion_payoff_dedup"
+Issues = "https://github.com/edeblo/operator_fusion_payoff_dedup/issues"
 
 [project.scripts]
-trainplat_jd065 = "trainplat_jd065:main"
+operator_fusion_payoff_dedup = "operator_fusion_payoff_dedup:main"
 
 [tool.setuptools]
-py-modules = ["trainplat_jd065"]
+py-modules = ["operator_fusion_payoff_dedup"]
